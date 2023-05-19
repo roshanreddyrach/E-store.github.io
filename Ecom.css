@@ -1,0 +1,1016 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: 'PT Sans', sans-serif;
+        scroll-behavior: smooth;
+        list-style: none;
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+    }
+    main{
+        overflow: hidden;
+    }
+    .navBar{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        align-content: space-between;
+        padding: 20px;
+        height: 130px;
+        background-color: rgba(128, 0, 128, 0.596);
+        position:fixed;
+        width: 100%;
+        top: 0;
+        z-index: 1;
+    }
+
+    .brand{
+        position: relative;
+        left: 140px;
+        color: whitesmoke;
+    }
+    .heading{
+        font-weight: bold ;
+        font-size: 2.3rem ;
+        letter-spacing: 0.5rem;
+
+    }
+    .tag{
+        font-size: 0.9rem;
+        letter-spacing: 1px;
+    }
+    .menuList{
+        display: flex;
+        flex-flow: row wrap;
+        position: relative;
+        top: 50%;
+        left: 15rem;
+    }
+    .brandMob{
+        display: none;
+    }
+    .headingMob{
+        display: none;
+
+
+    }
+    .tagMob{
+        display: none;
+
+    }
+    .menuItem a{
+        margin-right: 25px;
+        color: whitesmoke;
+        text-decoration: none;
+    }
+    .mobile{
+        display: none;
+    }
+    .price{
+        display: none;
+    }
+    .menuBar{
+        display: none;
+        color: ivory;
+    }
+    .background{
+        background-image: url("Images/shopping2.jpeg");
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: cover;
+        background-attachment: fixed;
+
+    }
+    /* section */
+    .section{
+     padding: 60px 30px 60px 30px;
+     height: 40rem;
+
+
+    }
+    .container{
+        padding: 60px 50px 50px 50px;
+        margin-left: 6rem;
+        color: whitesmoke;
+    }
+    .head{
+        font-size: 4rem;
+    }
+    .discount{
+        margin-top: 2rem;
+        font-size: 2rem;
+    }
+    .buttons{
+        margin-top: 3rem;
+    }
+    .buttons a{
+        text-decoration: none;
+        color: black;
+
+    }
+    #fm{
+        color: whitesmoke;
+    }
+    .btn1,.btn2{
+        border: 1px solid whitesmoke;
+        padding: 10px 20px 10px 20px;
+        border-radius: 5px;
+    }
+    .btn1{
+        margin-right: 2rem;
+        color: black;
+        background-color: whitesmoke;
+    }
+
+    /* shopping */
+    .shopping{
+        padding: 7rem;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+        color: whitesmoke;
+        background-color: white;
+        z-index: -1;
+
+    }
+
+    .women{
+        background-color: rgb(250, 160, 175);
+        background-image: url("Images/women.png");
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: contain;
+        width: 400px;
+        height: 350px;
+        margin-bottom: 1rem;
+
+
+    }
+    #women{
+        position: relative;
+        top: 45%;
+        margin-left: 2rem;
+        font-size: 3rem;
+    }
+    .button{
+        position: relative;
+        top: 60%;
+        margin-left: 2rem;
+
+    }
+    .button a{
+        text-decoration: none;
+        color: black;
+    }
+    .men{
+        background-image: url("Images/men.jpeg");
+        background-repeat: no-repeat;
+        background-position: top ;
+        background-size: cover;
+        width: 400px;
+        height: 350px;
+        margin-bottom: 1rem;
+
+
+    }
+    #men{
+        position: relative;
+        top: 50%;
+        margin-left: 5rem;
+        font-size: 3rem;
+
+    }
+    .button1{
+        position: relative;
+        top: 60%;
+        margin-left: 5rem;
+
+    }
+    .button1 a{
+        text-decoration: none;
+        color: black;
+
+    }
+    .accessories{
+        width: 400px;
+        height: 350px;
+        background-image: url("Images/accessories.jpg");
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: cover;
+        margin-bottom: 1rem;
+
+    }
+    #accessories{
+        position: relative;
+        top: 35%;
+        margin-left: 9rem;
+        font-size: 3rem;
+
+    }
+    .button2{
+        position: relative;
+        top: 60%;
+        margin-left: 9rem;
+
+    }
+    .button2 a{
+        text-decoration: none;
+        color: black;
+
+    }
+    .sideScroll{
+        display: flex;
+        flex-flow: row  ;
+        justify-content: left;
+        padding-left: 4rem;
+        padding-right: 2rem;
+        margin-bottom: 4rem;
+        text-align: center;
+    }
+    .item{
+        margin-right: 4rem;
+    }
+    /* section1 */
+
+    .section1{
+        background-color: rgb(255, 255, 255);
+    }
+    .products{
+        background-color: rgba(204, 203, 203, 0.219);
+        padding-top: 7rem;
+        padding-bottom: 10rem;
+
+    }
+    .head2{
+        text-align: center;
+    }
+    .featured{
+        font-size: 3rem;
+    }
+    .line{
+        border-top: 3px solid rgb(128, 0, 128);
+        border-radius: 1px;
+        width: 100px;
+        position:relative;
+        margin-top: 20px;
+        left: 47%;
+
+    }
+    .container2{
+        height: 400px;
+        width: 90%;
+        background-color: rgba(128, 0, 128, 0);
+        margin-top: 6rem;
+        margin-left: 5rem;
+        margin-right: 5rem;
+        color: black;
+        background-image: url("Images/background.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment:fixed;
+
+    }
+    .head3{
+        position: relative;
+        top: 30%;
+        left: 10%;
+    }
+    .head3 h1{
+        margin-top: 25px;
+        font-size: 3rem;
+
+    }
+    .button3{
+        margin-top: 5rem;
+
+    }
+    .button3 a{
+        text-decoration: none;
+        color: black;
+
+    }
+    .offers{
+        margin-top: 6rem;
+        margin-left: 5rem;
+        margin-right: 5rem;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+
+    }
+    .image{
+        width: 100px;
+        height: 100px;
+    }
+    figcaption{
+        font-size: 20px;
+    }
+    .footer{
+        margin-top: 6rem;
+        margin-left: 10rem;
+        margin-right: 5rem;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: left;
+    }
+    .footer>div{
+       margin-right: 15rem;
+       margin-bottom: 3rem;
+    }
+    .listItems a{
+        text-decoration: none;
+        color: black;
+        font-size: 17px;
+    }
+    .list{
+        margin-top: 2rem;
+    }
+    .listItems{
+        margin-bottom: 5px;
+    }
+   .footer2{
+        margin-top: 2rem;
+        margin-left: 10rem;
+        margin-right: 8rem;
+        margin-bottom: 2rem;
+       display: flex;
+       flex-flow: row wrap;
+       justify-content: space-between;
+   }
+   .footer2>span{
+       font-size: 14px;
+   }
+   @media only screen and (max-width:400px ) and (min-width:300px) {
+     *{
+         scroll-behavior: smooth;
+     }
+
+    .navBar{
+        padding: 10px;
+        height: 60px;
+        background-color: rgba(0, 0, 0, 0.596);
+
+
+    }
+    .brand{
+       display: none;
+    }
+    .heading{
+        display: none;
+
+    }
+    .tag{
+        display: none;
+    }
+    .menuList{
+        display: none;
+    }
+    .price{
+        display: block;
+        position: relative;
+        top: 0.5rem;
+        left: 1rem;
+
+    }
+    .menuBar{
+        display: block;
+        position: relative;
+        top: 0.5rem;
+        right: 1rem;
+
+        cursor: pointer;
+    }
+    .brandMob{
+        display: block;
+        color: whitesmoke;
+
+    }
+    .headingMob{
+        font-weight: bold ;
+        font-size: 1.5rem ;
+        letter-spacing: 0.3rem;
+        display: block;
+
+    }
+    .tagMob{
+        font-size: 0.7rem;
+        letter-spacing: 1px;
+        display: block;
+    }
+    .mobile{
+        width: 100%;
+        height: 99.9vh;
+        background-color: whitesmoke;
+        position: absolute;
+        top: 0;
+        left: 4px;
+        display: block;
+        padding: 0 5px 0 3rem;
+        transform: translateX(-30em);
+        transition: transform 0.5s ease;
+
+
+    }
+    .navBar1{
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-between;
+        height: 100%;
+    }
+    .mobile1{
+        transform: translateX(-2em);
+        transition: transform 0.8s ease-in-out;
+
+    }
+    .mobaList{
+        display: flex;
+        flex-flow: wrap column;
+        position: relative;
+        top: 5rem;
+        width: 100%;
+        font-size: 9px;
+        transform: translateX(-40px);
+
+
+    }
+    .mobaAnimation{
+        transform: translateX(5px);
+        transition: transform 1.7s ease;
+    }
+    .mobaItem{
+        margin-bottom: 0.5rem;
+        margin-right: 1rem;
+    }
+    .mobaItem a{
+        color: black;
+        text-decoration: none;
+
+    }
+    .cancel{
+        position: relative;
+        top: 2rem;
+    }
+    .socialMedia{
+        position: relative;
+        bottom: 2rem;
+        width: 55vw ;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+        border-top: 1px solid dimgrey;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        transform: translateY(10em);
+
+    }
+    .mediaAnimation{
+        transform: translateY(15px);
+        transition: transform 1.7s ease;
+    }
+    .media{
+        color: black;
+    }
+    /* 23
+    c */
+    .media4{
+        margin-right: 1rem;
+    }
+    .media1{
+        margin-left: 1rem;
+    }
+
+    .background{
+        background-image: url("Images/shopping\(mobile\).jpg");
+        background-position: center;
+
+
+    }
+    /* section */
+    .section{
+        padding: 5rem 0 0 0 ;
+       }
+       .container{
+           padding: 6rem 0 0 0;
+           margin-left: 1rem;
+       }
+       .head{
+           font-size: 2rem;
+       }
+       .discount{
+           margin-top: 10rem;
+           font-size: 1.5rem;
+       }
+       #fm{
+           color: black;
+       }
+       .btn1,.btn2{
+        padding: 5px 10px 5px 10px;
+    }
+       .btn2{
+
+        background-color: whitesmoke;
+
+
+       }
+    /* shopping */
+    .shopping{
+        padding: 7rem 2rem 2rem 2rem;
+    }
+
+    .women{
+        height: 250px;
+        margin-bottom: 1.5rem;
+
+
+    }
+    #women{
+        margin-left: 1rem;
+        font-size: 1.7rem;
+    }
+    .button{
+        margin-left: 1rem;
+
+    }
+    .men{
+        height: 250px;
+        margin-bottom: 1.5rem;
+
+
+    }
+    #men{
+        margin-left: 1rem;
+        font-size: 1.7rem;
+
+    }
+    .button1{
+        margin-left: 1rem;
+
+    }
+    .accessories{
+        height: 250px;
+        margin-bottom: 1.5rem;
+
+    }
+    #accessories{
+        margin-left: 4rem;
+        font-size: 1.7rem;
+
+    }
+    .button2{
+        margin-left: 4rem;
+
+    }
+    .sideScroll{
+        display: flex;
+        flex-flow: row  ;
+        justify-content: left;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        padding-left: 4rem;
+        padding-right: 2rem;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+    /* Hide scrollbar for Chrome, Safari and Opera */
+    .sideScroll::-webkit-scrollbar{
+    display: none;
+  }
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .sideScroll{
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+    .item{
+        margin-right: 4rem;
+    }
+    /* section1 */
+    .products{
+        padding-top: 2rem;
+        padding-bottom: 3rem;
+
+    }
+    .head2{
+        text-align: center;
+    }
+    .featured{
+        font-size: 1.6rem;
+    }
+    .line{
+        width: 90px;
+        left: 35%;
+
+    }
+    .container2{
+        height: 280px;
+        width: 90%;
+        background-color: rgba(128, 0, 128, 0);
+        margin-top: 2rem;
+        margin-left: 1rem;
+        margin-right: 2rem;
+        background-image: url("Images/background\(mobile\).jpg");
+        background-attachment:scroll;
+
+    }
+    .head3{
+        position: relative;
+        top: 9%;
+        left: 9%;
+    }
+    .head3 h1{
+        margin-top: 15px;
+        font-size: 1.7rem;
+
+    }
+    .header3{
+        font-size: 1.1rem;
+    }
+    .button3{
+        margin-top: 8rem;
+        margin-left: 4rem;
+
+    }
+    .offers{
+        margin-top: 6rem;
+        margin-left: 5rem;
+        margin-right: 5rem;
+        flex-flow: wrap column;
+        text-align: center;
+
+    }
+    .image{
+        width: 80px;
+        height: 80px;
+    }
+    figcaption{
+        font-size: 17px;
+        margin-bottom: 3rem;
+    }
+
+    .footer{
+        margin-top: 3rem;
+        margin-left: 0;
+        margin-right: 0;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-content: center;
+    }
+    .footer>div{
+       margin-right: 0rem;
+       text-align: center;
+    }
+    .listItems a{
+        font-size: 15px;
+    }
+
+
+   .footer2{
+        margin-top: 2rem;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 1rem;
+       flex-flow: column wrap;
+       justify-content: center;
+       align-content: center;
+   }
+   .footer2>span{
+       font-size: 12.5px;
+       margin-bottom: 1rem;
+       text-align: center;
+
+   }
+}
+
+
+   @media only screen and (max-width:430px ) and (min-width:400px) {
+    *{
+        scroll-behavior: smooth;
+    }
+
+    .navBar{
+        padding: 10px;
+        height: 60px;
+        background-color: rgba(0, 0, 0, 0.596);
+
+
+    }
+    .brand{
+       display: none;
+
+    }
+    .heading{
+        display: none;
+
+    }
+    .tag{
+        display: none;
+    }
+    .menuList{
+        display: none;
+    }
+    .price{
+        display: block;
+        position: relative;
+        top: 0.5rem;
+        left: 1rem;
+
+    }
+    .menuBar{
+        display: block;
+        position: relative;
+        top: 0.5rem;
+        right: 1rem;
+
+        cursor: pointer;
+    }
+    .brandMob{
+        display: block;
+        color: whitesmoke;
+
+    }
+    .headingMob{
+        font-weight: bold ;
+        font-size: 1.5rem ;
+        letter-spacing: 0.3rem;
+        display: block;
+
+    }
+    .tagMob{
+        font-size: 0.7rem;
+        letter-spacing: 1px;
+        display: block;
+    }
+    .mobile{
+        width: 100%;
+        height: 99.9vh;
+        background-color: whitesmoke;
+        position: absolute;
+        top: 0;
+        left: 4px;
+        display: block;
+        padding: 0 5px 0 3rem;
+        transform: translateX(-30em);
+        transition: transform 0.5s ease;
+
+
+    }
+    .navBar1{
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-between;
+        height: 100%;
+    }
+    .mobile1{
+        transform: translateX(-2em);
+        transition: transform 0.8s ease-in-out;
+    }
+    .mobaList{
+        display: flex;
+        flex-flow: wrap column;
+        position: relative;
+        top: 5rem;
+        width: 100%;
+
+    }
+    .mobaItem{
+        margin-bottom: 2rem;
+        margin-right: 2rem;
+    }
+    .mobaItem a{
+        color: black;
+        text-decoration: none;
+
+    }
+    .cancel{
+        position: relative;
+        top: 2rem;
+    }
+    .socialMedia{
+        position: relative;
+        bottom: 2rem;
+        width: 80vw ;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+        border-top: 1px solid dimgrey;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+
+    }
+    .media{
+        color: black;
+    }
+    .medias{
+        margin-right: 2.5rem;
+    }
+    .media4{
+        margin-right: 1rem;
+    }
+    .media1{
+        margin-left: 1rem;
+    }
+   .background{
+       background-image: url("Images/shopping\(mobile\).jpg");
+       background-position: center;
+
+
+   }
+   /* section */
+   .section{
+       padding: 5rem 0 0 0 ;
+      }
+      .container{
+          padding: 6rem 0 0 0;
+          margin-left: 1rem;
+      }
+      .head{
+          font-size: 2rem;
+
+      }
+      .discount{
+          margin-top: 10rem;
+          font-size: 1.5rem;
+      }
+      #fm{
+          color: black;
+      }
+      .btn1,.btn2{
+       padding: 5px 10px 5px 10px;
+   }
+      .btn2{
+
+       background-color: whitesmoke;
+
+
+      }
+
+   /* shopping */
+   .shopping{
+       padding: 7rem 2rem 2rem 2rem;
+   }
+
+   .women{
+       height: 250px;
+       margin-bottom: 1.5rem;
+
+
+   }
+   #women{
+       margin-left: 1rem;
+       font-size: 1.7rem;
+   }
+   .button{
+       margin-left: 1rem;
+
+   }
+   .men{
+       height: 250px;
+       margin-bottom: 1.5rem;
+
+
+   }
+   #men{
+       margin-left: 1rem;
+       font-size: 1.7rem;
+
+   }
+   .button1{
+       margin-left: 1rem;
+
+   }
+   .accessories{
+       height: 250px;
+       margin-bottom: 1.5rem;
+
+   }
+   #accessories{
+       margin-left: 4rem;
+       font-size: 1.7rem;
+
+   }
+   .button2{
+       margin-left: 4rem;
+
+   }
+   .sideScroll{
+    display: flex;
+    flex-flow: row  ;
+    justify-content: left;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding-left: 4rem;
+    padding-right: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+.sideScroll::-webkit-scrollbar{
+display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.sideScroll{
+-ms-overflow-style: none;  /* IE and Edge */
+scrollbar-width: none;  /* Firefox */
+}
+.item{
+    margin-right: 4rem;
+}
+   /* section1 */
+   .products{
+       padding-top: 2rem;
+       padding-bottom: 3rem;
+
+   }
+   .head2{
+       text-align: center;
+   }
+   .featured{
+       font-size: 1.6rem;
+   }
+   .line{
+       width: 90px;
+       left: 35%;
+
+   }
+   .container2{
+       height: 280px;
+       width: 90%;
+       background-color: rgba(128, 0, 128, 0);
+       margin-top: 2rem;
+       margin-left: 1rem;
+       margin-right: 2rem;
+       background-image: url("Images/background\(mobile\).jpg");
+       background-attachment:scroll;
+
+   }
+   .head3{
+       position: relative;
+       top: 9%;
+       left: 9%;
+   }
+   .head3 h1{
+       margin-top: 15px;
+       font-size: 1.7rem;
+
+   }
+   .header3{
+       font-size: 1.1rem;
+   }
+   .button3{
+       margin-top: 8rem;
+       margin-left: 4rem;
+
+   }
+
+   .offers{
+       margin-top: 6rem;
+       margin-left: 5rem;
+       margin-right: 5rem;
+       flex-flow: wrap column;
+        text-align: center;
+
+   }
+   .image{
+       width: 80px;
+       height: 80px;
+   }
+   figcaption{
+       font-size: 17px;
+       margin-bottom: 3rem;
+   }
+
+   .footer{
+       margin-top: 3rem;
+       margin-left: 0;
+       margin-right: 0;
+       flex-flow: column wrap;
+       justify-content: center;
+       align-content: center;
+   }
+   .footer>div{
+      margin-right: 0rem;
+      text-align: center;
+   }
+   .listItems a{
+       font-size: 15px;
+   }
+  .footer2{
+       margin-top: 2rem;
+       margin-left: 0;
+       margin-right: 0;
+       margin-bottom: 1rem;
+      flex-flow: column wrap;
+      justify-content: center;
+      align-content: center;
+  }
+  .footer2>span{
+      font-size: 12.5px;
+      margin-bottom: 1rem;
+      text-align: center;
+
+  }
+
+}
